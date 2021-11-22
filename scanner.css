@@ -1,0 +1,21 @@
+#photo-area input {
+   position: absolute;
+   border: none;
+   font-size: large;
+   font-weight: bold;
+   background-color: rgba(255,255,255,0.6);
+   color: blue;
+}
+
+#photo-area.viewport {
+   width: 100%;
+   height: auto;
+}
+#photo-area.viewport canvas, video {
+   width: 100%;
+   height: auto;
+}
+#photo-area.viewport canvas.drawingBuffer, video.drawingBuffer {
+   margin-left: -100%;
+}
+ 
